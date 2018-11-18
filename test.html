@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <script type="module" src="./index.js"></script>
+
+  <style>
+    body {
+      /* Both works */
+      --aspect-ratio: calc(16 / 9);
+      --aspect-ratio: 16 / 9;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin-bottom: 24px;
+    }
+
+    .block {
+      display: block;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <section class="grid">
+    <aspect-ratio>
+      <img src="https://picsum.photos/640/360/?random" alt="">
+    </aspect-ratio>
+    custom element
+  </section>
+
+  <section class="block">
+    <aspect-ratio>
+      <img src="https://picsum.photos/320/180/?random" alt="">
+    </aspect-ratio>
+    custom element
+  </section>
+</body>
+</html>

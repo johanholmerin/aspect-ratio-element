@@ -1,0 +1,11 @@
+{
+  "name": "aspect-ratio-element",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Johan Holmerin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:johanholmerin/aspect-ratio-element.git"
+  }
+}
