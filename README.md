@@ -6,7 +6,7 @@ DOM.
 ## Installation
 
 ```sh
-yarn add -D git+https://github.com/johanholmerin/aspect-ratio-element#semver:^1.0.0
+yarn add git+https://github.com/johanholmerin/aspect-ratio-element#semver:^1.0.0
 ```
 
 ## Usage
